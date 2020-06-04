@@ -24,7 +24,7 @@ os.makedirs(course_dir, exist_ok=True)
 urls_to_visit.put(course_homepage)
 
 options = webdriver.ChromeOptions()
-options.headless = False
+options.headless = True
 driver = webdriver.Chrome('driver/chromedriver', options=options)
 driver.set_window_size(1920, 1080)
 
