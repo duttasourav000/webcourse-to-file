@@ -1,0 +1,5 @@
+website: login_page
+course_homepage: course_content_page
+next_topic_url_pattern: url_pattern_for_topic_pages
+username: email
+password: password
